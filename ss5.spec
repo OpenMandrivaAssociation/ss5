@@ -12,6 +12,7 @@ BuildRequires: openldap-devel
 BuildRequires: pam-devel
 BuildRequires: openssl-devel 
 BuildRequires: gssglue-devel
+BuildRequires: krb5-devel
 
 %description
 ss5 is a socks server, which supports both SOCKS4 and SOCKS5 protocols,
