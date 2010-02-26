@@ -3,7 +3,7 @@ Name: ss5
 Version: 3.7.9
 Release: %mkrel 1
 License: GPL 
-Group: Applications/Internet
+Group: System/Servers
 URL: http://sourceforge.net/projects/ss5
 Source: http://prdownloads.sourceforge.net/ss5/ss5-3.7.9-2.tar.gz
 Patch0: ss5-make.diff
