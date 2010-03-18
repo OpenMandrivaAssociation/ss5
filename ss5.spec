@@ -38,7 +38,7 @@ that runs on Linux, Solaris and FreeBSD platforms.
 	--with-tracepath=%{_logdir}/ss5 \
 	--with-confpathbase=%{_sysconfdir}
 
-%make CXX="g++ %optflags"
+%make CXX="g++ %optflags -fPIC"
 
 %install 
 rm -rf %{buildroot}
