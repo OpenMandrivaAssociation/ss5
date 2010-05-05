@@ -1,13 +1,14 @@
 Summary: Socks Server 5 
 Name: ss5
 Version: 3.8.1
-Release: %mkrel 1
+Release: %mkrel 2
 License: GPL 
 Group: System/Servers
 URL: http://sourceforge.net/projects/ss5
 Source: http://prdownloads.sourceforge.net/ss5/ss5-3.8.1-1.tar.gz
 Patch0: ss5-make.diff
 Patch1: ss5-ss5-ha-loc.diff
+Patch2: ss5-init.diff
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: openldap-devel
 BuildRequires: pam-devel
@@ -23,6 +24,7 @@ that runs on Linux, Solaris and FreeBSD platforms.
 %setup -n ss5-%{version}
 %patch0 -p0 -b .makedir
 %patch1 -p0 -b .ss5ha
+%patch2 -p0 -b .lsb
 
 %build
 
