@@ -1,3 +1,7 @@
+%if %mdkversion < 200900
+        %define _localstatedir /var
+%endif 
+
 Summary: Socks Server 5 
 Name: ss5
 Version: 3.8.2
