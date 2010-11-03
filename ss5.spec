@@ -19,6 +19,7 @@ BuildRequires: pam-devel
 BuildRequires: openssl-devel 
 BuildRequires: gssglue-devel
 BuildRequires: krb5-devel
+BuildRequires: mysql-devel
 
 %description
 ss5 is a socks server, which supports both SOCKS4 and SOCKS5 protocols,
@@ -35,6 +36,7 @@ that runs on Linux, Solaris and FreeBSD platforms.
 %configure2_5x \
 	--with-epollio \
 	--with-gssapi \
+	--with-mysql \
 	--with-logpathbase=%{_logdir}/ss5 \
 	--with-configfile=%{_sysconfdir}/ss5/ss5.conf \
 	--with-passwordfile=%{_sysconfdir}/ss5/ss5.passwd \
