@@ -4,7 +4,7 @@
 
 Summary: Socks Server 5 
 Name: ss5
-Version: 3.8.6
+Version: 3.8.7
 Release: %mkrel 1
 License: GPL 
 Group: System/Servers
