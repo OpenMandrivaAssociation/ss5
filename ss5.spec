@@ -1,11 +1,13 @@
-%if %mdkversion < 200900
-        %define _localstatedir /var
-%endif 
+%if "%{distribution}" == "Mandriva Linux"
+        %if %mdkversion < 200900
+                %define _localstatedir /var
+        %endif
+%endif
 
 Summary: Socks Server 5 
 Name: ss5
 Version: 3.8.7
-Release: %mkrel 3
+Release: %mkrel 5
 License: GPL 
 Group: System/Servers
 URL: http://sourceforge.net/projects/ss5
