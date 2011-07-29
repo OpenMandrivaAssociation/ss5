@@ -15,7 +15,6 @@ Source: http://prdownloads.sourceforge.net/ss5/ss5-%{version}-1.tar.gz
 Patch0: ss5-make.diff
 Patch1: ss5-ss5-ha-loc.diff
 Patch2: ss5-init.diff
-Patch3: ss5-noopt.diff
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: openldap-devel
 BuildRequires: pam-devel
@@ -33,7 +32,6 @@ that runs on Linux, Solaris and FreeBSD platforms.
 %patch0 -p0 -b .makedir
 %patch1 -p0 -b .ss5ha
 %patch2 -p0 -b .lsb
-%patch3 -p0 -b .noopt
 
 %build
 
