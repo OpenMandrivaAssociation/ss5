@@ -6,12 +6,12 @@
 
 Summary: Socks Server 5 
 Name: ss5
-Version: 3.8.7
-Release: %mkrel 5
+Version: 3.8.9
+Release: %mkrel 1
 License: GPL 
 Group: System/Servers
 URL: http://sourceforge.net/projects/ss5
-Source: http://prdownloads.sourceforge.net/ss5/ss5-%{version}-1.tar.gz
+Source: http://prdownloads.sourceforge.net/ss5/ss5-%{version}-5.tar.gz
 Patch0: ss5-make.diff
 Patch1: ss5-ss5-ha-loc.diff
 Patch2: ss5-init.diff
