@@ -1,0 +1,10 @@
+--- Makefile.in	2009-06-23 00:20:05.000000000 -0500
++++ Makefile.in.dlucio	2010-02-26 14:39:40.328871436 -0600
+@@ -1,6 +1,6 @@
+ SUBDIRS=src modules
+ 
+-dst_dir   = ${prefix}
++dst_dir   = 
+ OS        = @OS@
+ lib_path_base   = @lib_path_base@
+ conf_path_base  = @conf_path_base@

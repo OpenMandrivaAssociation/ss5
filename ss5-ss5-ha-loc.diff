@@ -1,0 +1,22 @@
+--- include/config.h	2009-06-21 20:24:55.000000000 -0500
++++ include/config.h.dlucio	2010-02-26 22:50:43.077889050 -0600
+@@ -166,7 +166,7 @@
+ #ifdef FREEBSD
+ #define SS5_PEERS_FILE     "/usr/local/etc/opt/ss5/ss5.ha"
+ #else
+-#define SS5_PEERS_FILE     "/etc/opt/ss5/ss5.ha"
++#define SS5_PEERS_FILE     "/etc/ss5/ss5.ha"
+ #endif
+ 
+ /* Define default value of pathname for password file */
+--- include/config.h.in	2009-03-24 14:28:23.000000000 -0600
++++ include/config.h.in.dlucio	2010-02-26 22:51:05.428879413 -0600
+@@ -165,7 +165,7 @@
+ #ifdef FREEBSD
+ #define SS5_PEERS_FILE     "/usr/local/etc/opt/ss5/ss5.ha"
+ #else
+-#define SS5_PEERS_FILE     "/etc/opt/ss5/ss5.ha"
++#define SS5_PEERS_FILE     "/etc/ss5/ss5.ha"
+ #endif
+ 
+ /* Define default value of pathname for password file */
