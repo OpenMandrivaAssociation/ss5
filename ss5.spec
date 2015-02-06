@@ -7,7 +7,7 @@
 Summary: Socks Server 5 
 Name: ss5
 Version: 3.8.9
-Release: %mkrel 1
+Release: 2
 License: GPL 
 Group: System/Servers
 URL: http://sourceforge.net/projects/ss5
