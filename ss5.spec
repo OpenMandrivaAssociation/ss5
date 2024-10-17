@@ -10,7 +10,7 @@ Version: 3.8.9
 Release: 2
 License: GPL 
 Group: System/Servers
-URL: http://sourceforge.net/projects/ss5
+URL: https://sourceforge.net/projects/ss5
 Source: http://prdownloads.sourceforge.net/ss5/ss5-%{version}-5.tar.gz
 Patch0: ss5-make.diff
 Patch1: ss5-ss5-ha-loc.diff
