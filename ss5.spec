@@ -16,6 +16,11 @@ Patch0: ss5-make.diff
 Patch1: ss5-ss5-ha-loc.diff
 Patch2: ss5-init.diff
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: openldap-devel
 BuildRequires: pam-devel
 BuildRequires: openssl-devel 
